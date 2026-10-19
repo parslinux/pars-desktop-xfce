@@ -1,0 +1,11 @@
+pars-desktop-xfce (1.0.0) unstable; urgency=medium
+
+  * Initial release for ParsLinux 1.0 "Anatolian".
+  * Integrated core foundation layer pars-base.
+  * Added complete XFCE4 desktop suite (xfce4, xfwm4, xfce4-panel, thunar).
+  * Added Whisker Menu (xfce4-whiskermenu-plugin) for modern application launching.
+  * Configured LightDM display manager with GTK greeter.
+  * Integrated lightweight utilities (Mousepad, Ristretto, Galculator, Atril/Evince).
+  * Added ParsLinux ecosystem tools (About, Update, Software, Image Writer, Formatter, Boot Repair).
+
+ -- Pars Linux Developers <dev@parslinux.org>  Sun, 19 Oct 2026 22:30:00 +0300

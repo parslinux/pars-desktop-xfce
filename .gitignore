@@ -1,0 +1,12 @@
+build/
+*.deb
+*.buildinfo
+*.changes
+*.tar.gz
+*.tar.xz
+.debhelper/
+debian/.debhelper/
+debian/pars-desktop-xfce/
+debian/files
+debian/*.substvars
+debian/*.debhelper.log

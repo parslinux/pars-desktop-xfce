@@ -1,0 +1,65 @@
+Source: pars-desktop-xfce
+Section: metapackages
+Priority: optional
+Maintainer: Pars Linux Developers <dev@parslinux.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.1
+Homepage: https://github.com/parslinux/pars-desktop-xfce
+
+Package: pars-desktop-xfce
+Architecture: all
+Depends: ${misc:Depends},
+         pars-base,
+         xfce4,
+         xfce4-whiskermenu-plugin,
+         lightdm,
+         lightdm-gtk-greeter,
+         thunar,
+         xfce4-panel,
+         xfce4-settings,
+         xfce4-terminal,
+         xfdesktop4,
+         xfwm4
+Recommends: pars-about | pardus-about,
+            pars-update | pardus-update,
+            parslinux-software | pardus-software | synaptic,
+            pars-image-writer | pardus-image-writer,
+            pars-mycomputer | pardus-mycomputer,
+            parslinux-package-installer | pardus-package-installer,
+            parslinux-formatter | pardus-usb-formatter,
+            parslinux-boot-repair,
+            atril | evince,
+            catfish,
+            engrampa | xarchiver | file-roller,
+            galculator,
+            menulibre,
+            mousepad,
+            network-manager-gnome,
+            pavucontrol,
+            ristretto,
+            simple-scan,
+            synaptic,
+            tumbler,
+            thunar-archive-plugin,
+            thunar-volman,
+            vlc | parole,
+            xfce4-appfinder,
+            xfce4-notifyd,
+            xfce4-power-manager,
+            xfce4-pulseaudio-plugin,
+            xfce4-screenshooter,
+            xfce4-taskmanager
+Breaks: pardus-xfce-desktop
+Conflicts: pardus-xfce-desktop
+Replaces: pardus-xfce-desktop
+Description: Pars Linux XFCE Lightweight Desktop Metapackage
+ This metapackage provides the lightweight, high-performance XFCE desktop
+ environment for Pars Linux.
+ .
+ It builds upon the core foundation (pars-base) and includes:
+  * Full XFCE4 desktop suite (xfwm4, xfdesktop4, xfce4-panel, thunar)
+  * Whisker Menu (xfce4-whiskermenu-plugin) for fast and modern application search
+  * LightDM display manager with modern GTK greeter
+  * Lightweight everyday utilities (Mousepad, Ristretto, Galculator, Atril/Evince)
+  * Core Pars Linux ecosystem tools (Pars About, Update, Software, Image Writer,
+    Formatter, Package Installer, Boot Repair)
